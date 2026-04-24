@@ -4,6 +4,13 @@ import net.salesianos.figuras.Rectangulo;
 import net.salesianos.figuras.Circulo;
 import net.salesianos.vehiculos.CocheCombustion;
 
+/*
+ * Clase principal del proyecto. 
+ * Aquí se ejecutan las dos partes de la práctica: 
+ * primero las figuras geométricas y luego el coche de combustión.
+ * Se encarga de pedir los datos necesarios y mostrar los resultados por consola.
+ */
+
 public class App {
 
     public static void main(String[] args) {
