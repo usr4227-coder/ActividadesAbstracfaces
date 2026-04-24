@@ -20,4 +20,30 @@ public abstract class Vehiculo {
         this.modelo = modelo;
         this.matricula = matricula;
     }
+
+    public String getColor() {
+        return color;
+    }
+
+    public int getNumeroPuertas() {
+        return numeroPuertas;
+    }
+
+    public int getNumeroRuedas() {
+        return numeroRuedas;
+    }
+
+    public String getModelo() {
+        return modelo;
+    }
+
+    public String getMatricula() {
+        return matricula;
+    }
+
+    public abstract void arrancar();
+
+    public abstract void pararMotor();
+
+    public abstract void mover();
 }
